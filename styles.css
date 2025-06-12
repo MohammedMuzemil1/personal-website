@@ -348,4 +348,42 @@ footer {
   .brand-title {
     font-size: 1.3rem;
   }
+}
+.experiences-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin-top: 1.5em;
+}
+@media (max-width: 800px) {
+  .experiences-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.experience-card {
+  background: #f7fafd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.07);
+  padding: 1.5em 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.exp-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 0.5em;
+}
+.exp-icon {
+  font-size: 2em;
+}
+.exp-role {
+  font-size: 1em;
+  color: #3b82f6;
+  font-weight: 500;
+}
+.exp-dates {
+  font-size: 0.95em;
+  color: #64748b;
 } 
