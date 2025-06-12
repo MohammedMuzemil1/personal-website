@@ -127,4 +127,225 @@ footer {
   .header-info h1 {
     font-size: 1.3rem;
   }
+}
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.services-list li {
+  background: #f1f5fb;
+  color: #1e293b;
+  border-left: 4px solid #3b82f6;
+  margin-bottom: 1em;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+  font-size: 1.05em;
+}
+.contact-cta {
+  background: #e0e7ef;
+  border-radius: 10px;
+  padding: 1.5em 1em;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 6px rgba(30,41,59,0.05);
+}
+.cta-btn {
+  display: inline-block;
+  background: #3b82f6;
+  color: #fff;
+  padding: 0.7em 2em;
+  border-radius: 6px;
+  font-size: 1.1em;
+  text-decoration: none;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #2563eb;
+}
+.hero {
+  background: linear-gradient(120deg, #3b82f6 0%, #1e293b 100%);
+  color: #fff;
+  padding: 4em 1em 3em 1em;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  letter-spacing: -1px;
+}
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5em;
+}
+.hero-btn {
+  font-size: 1.1em;
+  padding: 0.8em 2.2em;
+  background: #fff;
+  color: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.hero-btn:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+.section-divider {
+  height: 3px;
+  background: linear-gradient(90deg, #3b82f6 0%, #e0e7ef 100%);
+  border-radius: 2px;
+  margin: 2.5em 0 2em 0;
+}
+.icon {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.why-choose {
+  background: #f7fafd;
+  border-radius: 10px;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.why-list {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em 2em;
+}
+.why-list li {
+  font-size: 1.1em;
+  background: #e0e7ef;
+  border-radius: 6px;
+  padding: 0.7em 1.2em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.testimonials {
+  background: #f1f5fb;
+  border-radius: 10px;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.testimonial {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(30,41,59,0.06);
+  margin: 1em auto 1.5em auto;
+  max-width: 500px;
+  padding: 1.2em 1em 0.8em 1em;
+  font-style: italic;
+  color: #1e293b;
+}
+.testimonial span {
+  display: block;
+  margin-top: 0.7em;
+  font-size: 0.98em;
+  color: #3b82f6;
+  font-style: normal;
+}
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .why-list {
+    flex-direction: column;
+    gap: 0.5em 0;
+  }
+}
+.header-split {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 2.5em 1em 2em 1em;
+  max-width: 1100px;
+  margin: 0 auto 2em auto;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,41,59,0.07);
+  gap: 2.5em;
+}
+.header-split-img {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic-large {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #3b82f6;
+  box-shadow: 0 2px 12px rgba(30,41,59,0.12);
+}
+.header-split-info {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.brand-title {
+  margin: 0 0 0.2em 0;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+.brand-tagline {
+  margin: 0 0 0.7em 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #3b82f6;
+}
+.header-split-info .contact {
+  font-size: 1.05em;
+  margin-bottom: 0.3em;
+}
+.header-split-info .contact a {
+  color: #3b82f6;
+  text-decoration: none;
+  margin-right: 0.7em;
+  transition: color 0.2s;
+}
+.header-split-info .contact a:hover {
+  color: #2563eb;
+}
+.header-split-info .social {
+  margin-top: 0.2em;
+}
+.header-split-info .social a {
+  color: #1e293b;
+  text-decoration: none;
+  margin-right: 1.2em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.header-split-info .social a:hover {
+  color: #3b82f6;
+}
+@media (max-width: 800px) {
+  .header-split {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 2em 0.5em 1.5em 0.5em;
+  }
+  .profile-pic-large {
+    width: 110px;
+    height: 110px;
+  }
+  .brand-title {
+    font-size: 1.3rem;
+  }
 } 
